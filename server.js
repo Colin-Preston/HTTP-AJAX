@@ -48,7 +48,7 @@ let friends = [
   },
 ];
 
-bodyParser.get('http://localhost:5000/friends')
+friends.get('http://localhost:5000/friends')
 
 app.use(cors());
 app.use(bodyParser.json());
